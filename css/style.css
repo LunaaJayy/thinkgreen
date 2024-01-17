@@ -26,6 +26,10 @@ p {
 /* INDEX */
 /* foto's*/
 
+.index {
+    background-image: url(../images/index/achtergrond-index.png);
+}
+
 header img {
     width: 19.1em;
     margin-bottom: 1em;
@@ -48,7 +52,6 @@ header img {
 .index h2 {
     font-size: 1.8em;
     color: #E76F51;
-    /* margin: 1em 0 0 0.5em; */
     margin: 0;
 }
 
