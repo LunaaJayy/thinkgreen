@@ -19,6 +19,10 @@ h1{
     font-size: 2.5em;
     }
 
+p {
+    margin: 0 0 0 1em;  
+}
+
 /* INDEX */
 /* foto's*/
 
@@ -36,19 +40,31 @@ header img {
     background-color: #264653;
 }
 
-.index p:nth-of-type(1) {
+.index main p:nth-child(1) {
     color: #E24D28;
     margin-top: 1em;
 }
 
 .index h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #E76F51;
-    margin: 1em 0 0 0.5em;
-
+    /* margin: 1em 0 0 0.5em; */
+    margin: 0;
 }
 
-.index p{
-   margin: 0 0 0 1em; 
+.wih-lijn {
+    border: 0.16em solid #E76F51;
+    width: 7em;
+    margin-top: 1em;
+    margin-left: 0.65em;
+}
+
+.wat-is-het {
+    display: flex;
+    margin: 1.5em 0 0.75em 1em;
+}
+
+.index p:not(.index main p:nth-child(1)){
    color: #264653;
+   margin-bottom: 1em;
 }
