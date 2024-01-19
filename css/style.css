@@ -70,7 +70,7 @@ header img {
     margin-bottom: 2em;
 }
 
-main img {
+.index main img {
     width: 5em;
     position: absolute;
     margin-left: auto;
@@ -130,3 +130,8 @@ main img {
    color: #264653;
    margin-bottom: 1em;
 }
+
+/* Gemeenschappen */
+
+
+
