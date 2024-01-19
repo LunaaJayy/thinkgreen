@@ -61,13 +61,33 @@ nav ul {
 /* INDEX */
 /* foto's*/
 
-.index {
+/* .index {
     background-image: url(../images/index/achtergrond-index.png);
-}
+} */
 
 header img {
     width: 19.1em;
     margin-bottom: 2em;
+}
+
+main img {
+    width: 5em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 15em;
+}
+
+.verticale-lijnindex {
+    border: 0.16em solid #E76F51;
+    width: 38em;
+    transform: rotate(90deg);
+    margin: 0;
+    position: absolute;
+    left: -0.7em;
+    top: 36.5em;
 }
 
 /*tekst*/
@@ -83,9 +103,9 @@ header img {
     background-color: #264653;
 }
 
-.index main p:nth-child(1) {
+.rood {
     color: #E24D28;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .index h2 {
@@ -106,7 +126,7 @@ header img {
     margin: 1.5em 0 0.75em 1em;
 }
 
-.index p:not(.index main p:nth-child(1)){
+.index p:not(.index main p:nth-child(2)){
    color: #264653;
    margin-bottom: 1em;
 }
