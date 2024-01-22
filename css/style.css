@@ -19,7 +19,8 @@ h1{
 }
 
 p {
-    margin: 0 4em 0 1em;  
+    margin: 0 4em 0 1em;
+    color: #264653; 
 }
 
 li img {
@@ -82,7 +83,7 @@ header img {
     margin: 0;
     position: absolute;
     left: -0.7em;
-    top: 36.5em;
+    top: 36.52em;
 }
 
 /*tekst*/
@@ -123,7 +124,6 @@ header img {
 }
 
 .index p:not(.index main p:nth-child(2)){
-   color: #264653;
    margin-bottom: 1em;
 }
 
@@ -132,6 +132,16 @@ header img {
 
 .gemeenschappen main img {
     width: 5.6em;
+}
+
+.verticale-lijn-gem {
+    border: 0.11em solid #E76F51;
+    width: 73.6em;
+    transform: rotate(90deg);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -18.45em;
 }
 
 /* tekst */
@@ -164,15 +174,15 @@ header img {
     padding: 1em;
 }
 
-.fietskliniek {
+.fietskliniekvak {
     background-color: #E76F51;
 }
 
-.clothesswap {
+.clothesswapvak {
     background-color: #F4A261;
 }
 
-.werepair {
+.werepairvak {
     background-color: #DFAC2A;
 }
 
@@ -180,13 +190,67 @@ header img {
     text-decoration: none;
 }
 
-.verticale-lijn {
-    border: 0.11em solid #E76F51;
-    width: 73.6em;
-    transform: rotate(90deg);
-    margin: 0;
+/* Fietskliniek */
+/* foto's */
+
+.kwartwiel {
+    width: 4.36em;
     position: absolute;
     top: 0;
-    left: -18.45em;
+    right: 0;
 }
 
+.fiets-lijn {
+    border: 0.11em solid #E76F51;
+    width: 5.2em;
+    margin: 1.1em 0 0 0.5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.fietsenrij {
+    display: block;
+    margin: 1em 0;
+    width: 19em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[class^=diy-lijn] {
+    border: 0.11em solid #E76F51;
+    width: 3.75em;
+    margin: 0.95em 0 0 0;
+}
+
+.diy {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1em 0;
+}
+
+.halfwiel {
+    width: 5em;
+}
+
+/* tekst */
+
+.fietskliniek h1{
+    font-size: 1.94em;
+    color: #E76F51;
+    margin: 0;
+}
+
+.fietskliniek header {
+    display: flex;
+    margin: 2em 0 0.75em 1em;
+}
+
+.fietskliniek p:nth-of-type(1) {
+    color: #E24D28;
+}
+
+.fietskliniek h2 {
+    font-size: 1.7em;
+    margin: 0 0.2em;
+    color: #E76F51;
+}
