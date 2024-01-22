@@ -205,12 +205,21 @@ header img {
     width: 5.2em;
     margin: 1.1em 0 0 0.5em;
     position: absolute;
+    z-index: 2;
+}
+
+.fietsenrij1 {
+    display: block;
+    margin: 1em 0;
+    width: 19em;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
 }
 
-.fietsenrij {
+.fietsenrij2 {
     display: block;
-    margin: 1em 0;
+    margin: 1.5em 0;
     width: 19em;
     margin-left: auto;
     margin-right: auto;
@@ -231,6 +240,16 @@ div[class^=diy-lijn] {
 .halfwiel {
     width: 5em;
     padding-bottom: 6.5em;
+}
+
+.verticale-lijnfiets {
+    border: 0.11em solid #E76F51;
+    width: 130.5em;
+    transform: rotate(90deg);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -46.95em; 
 }
 
 /* tekst */
@@ -264,3 +283,13 @@ div[class^=diy-lijn] {
 .fietskliniek p:nth-last-of-type(3) {
     font-size: 1.27em
 }
+
+.fietskliniek p:nth-last-of-type(2) {
+    font-size: 1.1em;
+    margin: 0.2em 0 0 5em;
+}
+
+.fietskliniek main > p:last-of-type {
+    margin-left: 8em;
+}
+    
