@@ -1,0 +1,1 @@
+Kan ik bij de fietskliniek (en dus andere gemeenschappen) de tekst en plaatje na h2 in een divje doen met flexbox?

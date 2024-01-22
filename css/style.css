@@ -98,11 +98,11 @@ header img {
     flex-flow: row wrap;
     justify-content: center;
     background-color: #264653;
+    margin-bottom: 3em;
 }
 
 .rood {
     color: #E24D28;
-    margin-top: 3em;
 }
 
 .index h2 {
@@ -230,6 +230,7 @@ div[class^=diy-lijn] {
 
 .halfwiel {
     width: 5em;
+    padding-bottom: 6.5em;
 }
 
 /* tekst */
@@ -245,12 +246,21 @@ div[class^=diy-lijn] {
     margin: 2em 0 0.75em 1em;
 }
 
-.fietskliniek p:nth-of-type(1) {
-    color: #E24D28;
-}
-
 .fietskliniek h2 {
     font-size: 1.7em;
     margin: 0 0.2em;
     color: #E76F51;
+}
+
+.plaatje-tekst {
+    display: flex;
+    margin: 1.27em 0 1em 0;
+}
+
+.plaatje-tekst p {
+    margin: 0 4.4em 0 1em;
+}
+
+.fietskliniek p:nth-last-of-type(3) {
+    font-size: 1.27em
 }
