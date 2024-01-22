@@ -16,7 +16,6 @@ h1, h2 {
 
 h1{
     color: white;
-    font-size: 2.5em;
 }
 
 p {
@@ -61,10 +60,6 @@ nav ul {
 /* INDEX */
 /* foto's*/
 
-/* .index {
-    background-image: url(../images/index/achtergrond-index.png);
-} */
-
 header img {
     width: 19.1em;
     margin-bottom: 2em;
@@ -81,7 +76,7 @@ header img {
 }
 
 .verticale-lijnindex {
-    border: 0.16em solid #E76F51;
+    border: 0.11em solid #E76F51;
     width: 38em;
     transform: rotate(90deg);
     margin: 0;
@@ -94,6 +89,7 @@ header img {
 
 .index h1 {
     margin-bottom: 0.4em;
+    font-size: 2.5em;
 }
 
 .index header {
@@ -115,8 +111,8 @@ header img {
 }
 
 .wih-lijn {
-    border: 0.16em solid #E76F51;
-    width: 7em;
+    border: 0.11em solid #E76F51;
+    width: 7.1em;
     margin-top: 1em;
     margin-left: 0.65em;
 }
@@ -180,9 +176,13 @@ header img {
     background-color: #DFAC2A;
 }
 
+.gemeenschappen a {
+    text-decoration: none;
+}
+
 .verticale-lijn {
-    border: 0.16em solid #E76F51;
-    width: 73.5em;
+    border: 0.11em solid #E76F51;
+    width: 73.6em;
     transform: rotate(90deg);
     margin: 0;
     position: absolute;
