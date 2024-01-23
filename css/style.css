@@ -19,7 +19,7 @@ h1{
 }
 
 p {
-    margin: 0 4em 0 1em;
+    margin: 0 4.3em 0 1em;
     color: #264653; 
 }
 
@@ -218,19 +218,15 @@ header img {
 
 .fietsenrij1 {
     display: block;
-    margin: 1em 0;
+    margin: 1em auto;
     width: 19em;
-    margin-left: auto;
-    margin-right: auto;
     z-index: 1;
 }
 
 .fietsenrij2 {
     display: block;
-    margin: 1.5em 0;
+    margin: 1.5em auto;
     width: 19em;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 div[class^=diy-lijn] {
@@ -299,7 +295,7 @@ div[class^=diy-lijn] {
 /* ClothesSwap */
 /* foto's */
 
-.swap-lijn {
+.titelswap-lijn {
     border: 0.11em solid #F4A261;
     width: 5.2em;
     margin: 1.1em 0 0 0.5em;
@@ -311,10 +307,90 @@ div[class^=diy-lijn] {
     width: 4.5em;
 }
 
+.klerenvliegen {
+    display: block;
+    width: 19em;
+    margin: 1em auto;
+}
+
+.sok {
+    width: 3.6em;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 23.2em;
+    left: 16em;
+}
+
+.halfshirt {
+    width: 5em;
+    padding-bottom: 4em;
+}
+
+.halvesjaal {
+    width: 11.7em;
+    margin: 1em 0;
+}
+
+.schuinkleding {
+    width: 8.2em;
+    position: absolute;
+    bottom: -49em;
+    right: 0;
+}
+
+.verticale-lijn-swap {
+    border: 0.11em solid #F4A261;
+    width: 172em;
+    transform: rotate(90deg);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -67.65em; 
+}
+
 /* tekst */
 
 .clothesswap h1 {
     font-size: 1.94em;
     color: #EE8A3A;
     margin: 0;
+}
+
+.oranje {
+    color: #E37824;
+}
+
+.clothesswap p:nth-of-type(3) {
+    margin-top: 1.27em;
+}
+
+.ervaring {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1em 0;
+}
+
+div[class^=swap-lijn] {
+    border: 0.11em solid #F4A261;
+    width: 3.26em;
+    margin: 0.95em 0 0 0;
+}
+
+.ervaring h2 {
+    font-size: 1.7em;
+    margin: 0 0.2em;
+    color: #EE8A3A;
+}
+
+.clothesswap .plaatje-tekst {
+    margin-bottom: 1.27em;
+}
+
+.clothesswap p:nth-last-of-type(2) {
+    font-size: 1.25em;
+    margin-right: 0;
+}
+
+.clothesswap main > p:nth-last-of-type(1) {
+    margin: 0.2em 0 0 3em;   
 }
