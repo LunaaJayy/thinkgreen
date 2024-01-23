@@ -58,6 +58,17 @@ nav ul {
     padding: 0.5em;
 }
 
+.titels {
+    display: flex;
+    margin: 2em 0 0.75em 1em;
+}
+
+.hoekfoto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 /* INDEX */
 /* foto's*/
 
@@ -127,7 +138,7 @@ header img {
    margin-bottom: 1em;
 }
 
-/* Gemeenschappen */
+/* GEMEENSCHAPPEN */
 /* foto's */
 
 .gemeenschappen main img {
@@ -190,14 +201,11 @@ header img {
     text-decoration: none;
 }
 
-/* Fietskliniek */
+/* FIETSKLINIEK */
 /* foto's */
 
 .kwartwiel {
     width: 4.36em;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .fiets-lijn {
@@ -260,11 +268,6 @@ div[class^=diy-lijn] {
     margin: 0;
 }
 
-.fietskliniek header {
-    display: flex;
-    margin: 2em 0 0.75em 1em;
-}
-
 .fietskliniek h2 {
     font-size: 1.7em;
     margin: 0 0.2em;
@@ -293,3 +296,25 @@ div[class^=diy-lijn] {
     margin-left: 8em;
 }
     
+/* ClothesSwap */
+/* foto's */
+
+.swap-lijn {
+    border: 0.11em solid #F4A261;
+    width: 5.2em;
+    margin: 1.1em 0 0 0.5em;
+    position: absolute;
+    z-index: 2;
+}
+
+.jurkhoek {
+    width: 4.5em;
+}
+
+/* tekst */
+
+.clothesswap h1 {
+    font-size: 1.94em;
+    color: #EE8A3A;
+    margin: 0;
+}
