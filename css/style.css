@@ -213,14 +213,13 @@ header img {
     width: 5.2em;
     margin: 1.1em 0 0 0.5em;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 .fietsenrij1 {
     display: block;
     margin: 1em auto;
     width: 19em;
-    z-index: 1;
 }
 
 .fietsenrij2 {
@@ -300,7 +299,7 @@ div[class^=diy-lijn] {
     width: 5.2em;
     margin: 1.1em 0 0 0.5em;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 .jurkhoek {
@@ -393,4 +392,98 @@ div[class^=swap-lijn] {
 
 .clothesswap main > p:nth-last-of-type(1) {
     margin: 0.2em 0 0 3em;   
+}
+
+/* WEREPAIR */
+/* foto's */
+
+.hoeksleutel {
+    width: 4.5em;
+}
+
+.repair-lijn {
+    border: 0.11em solid #DFAC2A;
+    width: 10em;
+    margin: 1.1em 0 0 0.5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.geel {
+    color: #D49E16;
+}
+
+.schuinmuziek {
+    float: right;
+    width: 9.2em;
+    margin-top: -2.9em;
+    margin-right: 1em;
+}
+
+.brazil {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1em 0;
+}
+
+div[class^=brazil-lijn] {
+    border: 0.11em solid #DFAC2A;
+    width: 6em;
+    margin: 0.95em 0 0 0;
+}
+
+.sleutel {
+    width: 3.4em;
+    margin-left: 1em;
+}
+
+.muziekrecht {
+    display: block;
+    width: 17.6em;
+    margin: 1.5em auto;
+}
+
+.verticale-lijn-repair {
+    border: 0.11em solid #DFAC2A;
+    width: 141.5em;
+    transform: rotate(90deg);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -52.65em;
+}
+
+/* tekst */
+
+.werepair h1 {
+    font-size: 1.94em;
+    color: #D7A320;
+    margin: 0;
+}
+
+.brazil h2 {
+    font-size: 1.7em;
+    margin: 0 0.2em;
+    color: #D7A320;
+}
+
+.werepair main > p:nth-of-type(2){
+    margin-top: 1.27em;
+}
+
+.werepair .plaatje-tekst p:nth-of-type(2) {
+    margin-top: 1.27em;
+}
+
+.werepair p:nth-last-of-type(3) {
+    font-size: 1.27em
+}
+
+.werepair main > p:nth-last-of-type(2) {
+    font-size: 1.1em;
+    margin: 0.2em 0 0 5em;
+}
+
+.werepair main > p:last-of-type {
+    margin-left: 7.5em;
 }
