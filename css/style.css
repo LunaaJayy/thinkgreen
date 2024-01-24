@@ -185,6 +185,11 @@ header img {
     padding: 1em;
 }
 
+.gemeenschappen section:active {
+    box-shadow: 0 0.22em 0.22em rgba(0, 0, 0, 0);
+    transform: translateY(0.22em);
+}
+
 .fietskliniekvak {
     background-color: #E76F51;
 }
