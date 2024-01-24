@@ -505,7 +505,7 @@ div[class^=swap-lijn] {
 
 .repair-lijn {
     border: 0.11em solid #DFAC2A;
-    width: 10em;
+    width: 9.85em;
     margin: 1.1em 0 0 0.5em;
     position: absolute;
     z-index: 1;
@@ -530,7 +530,7 @@ div[class^=swap-lijn] {
 
 div[class^=brazil-lijn] {
     border: 0.11em solid #DFAC2A;
-    width: 6em;
+    width: 5.79em;
     margin: 0.95em 0 0 0;
 }
 
