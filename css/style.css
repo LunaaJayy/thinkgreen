@@ -103,14 +103,52 @@ header img {
     margin-left: 1em;
 }
 
+.indkwartwiel {
+    width: 2.4em;
+    position: absolute;
+    top: 31.5em;
+    right: 2.4em;
+}
+
+.indschuinmuziek {
+    width: 4.7em;
+    position: absolute;
+    top: 41em;
+    right: 2.8em;
+}
+
+.indsleutel {
+    width: 1.6em;
+    transform: rotate(-15.68deg);
+    position: absolute;
+    top: 56em;
+    right: 2em;
+}
+
+.indsok {
+    width: 2.6em;
+    transform: rotate(-19.04deg);
+    position: absolute;
+    top: 68em;
+    right: 1.5em;
+}
+
+.indwiel {
+    width: 3.5em;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 2.7em;
+    top: 74em;
+}
+
 .verticale-lijnindex {
     border: 0.11em solid #E76F51;
-    width: 38em;
+    width: 61.41em;
     transform: rotate(90deg);
     margin: 0;
     position: absolute;
-    left: -0.7em;
-    top: 36.52em;
+    left: -12.35em;
+    top: 48.22em;
 }
 
 /*tekst*/
